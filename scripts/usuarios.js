@@ -1,5 +1,5 @@
 const formulario = document.querySelector('#formulario');
-const API_URL = 'http://localhost:4002/usuarios';
+const API_URL = 'http://localhost:4000/usuarios';
 
 formulario.addEventListener('submit', async e => {
     const name = document.querySelector('#name').value;

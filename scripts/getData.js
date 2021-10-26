@@ -1,33 +1,29 @@
-const btnPerro = document.querySelector('#btnperro');
-const btnGato = document.querySelector('#btnGato');
-const dbGatos = 'http://localhost:4000/gatos';
-const dbPerros = 'http://localhost:4001/perros';
+const cards = document.querySelector('.container-cards');
+const URL_POR = `http://localhost:4000/portatiles`;
+const URL_CEL = `http://localhost:4001/celulares`;
+const btnCelular = document.querySelector('.btnCelular');
+const btnPortatil = document.querySelector('.btnPortatil');
 
-btnPerro.addEventListener('click', () => {
-    obtenerMascotas(dbPerros);
+btnCelular.addEventListener('click', ()=> {
+    getData(URL_CEL);
 })
-btnGato.addEventListener('click', () => {
-    obtenerMascotas(dbGatos);
+btnPortatil.addEventListener('click', ()=> {
+    getData(URL_POR);
 })
 
-const obtenerMascotas = async(mascota) => {
-    let mostrarMascotas = document.querySelector('.grid-mascotas')
-    mostrarMascotas.innerHTML = ``;
-    const data = await fetch(mascota);
-    const dataJson = await data.json();
-    dataJson.forEach(mascota => {
-        const {imagen, nombre, raza} = mascota;
-        mostrarMascotas.innerHTML += `<div class="col mascotas">
-        <a href="#" class="enlace-detsalle-mascota">
-            <div class="card bg-dark text-white gradiente">                
-                <img src="${imagen}" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                        <h5 class="card-title body2Bold">${nombre}</h5>
-                        <p class="card-text body2Regular">${raza}</p>
-                </div>
+const getData = async(data) => {
+    cards.innerHTML = "";
+    const res = await fetch(data);
+    const datos = await res.json();
+    
+    datos.forEach( elemento => {
+        const {nombre, marca, imagen} = elemento;
+        cards.innerHTML += `
+        <div class="card">
+                <img src="${imagen}">
+            <div class="container">
+                <h2>${nombre}</h2>
             </div>
-        </a>
-    </div>`;
+        </div>`
     });
-    console.log(dataJson);
 }

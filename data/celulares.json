@@ -1,0 +1,79 @@
+{
+    "celulares": [
+        {
+            "nombre": "iPhone 13 Pro Max",
+            "marca": "apple",
+            "imagen": "https://m.media-amazon.com/images/I/61BgOOthLUL._AC_SX679_.jpg"
+        },
+        {
+            "nombre": "Samsung Galaxy S21 Ultra 5G",
+            "marca": "samsung",
+            "imagen": "https://m.media-amazon.com/images/I/81jyrIVv+1L._AC_SX425_.jpg"
+        },
+        {
+            "nombre": "Samsung Galaxy Z Fold3 5G",
+            "marca": "samsung",
+            "imagen": "https://m.media-amazon.com/images/I/611rN4ExA3L._AC_SX679_.jpg"
+        },
+        {
+            "nombre": "Huawei Mate 40 Pro",
+            "marca": "huawei",
+            "imagen": "https://m.media-amazon.com/images/I/61SSJzkH8yL._AC_SX569_.jpg"
+        },
+        {
+            "nombre": "Huawei P40 Pro",
+            "marca": "huawei",
+            "imagen": "https://m.media-amazon.com/images/I/612L3YQ69oL._AC_SX425_.jpg"
+        },
+        {
+            "nombre": "OnePlus 9 Pro",
+            "marca": "oneplus",
+            "imagen": "https://m.media-amazon.com/images/I/71tpch1kPAS._AC_SY450_.jpg"
+        },
+        {
+            "nombre": "Xiaomi Poco M3 Pro 5G",
+            "marca": "xiaomi",
+            "imagen": "https://m.media-amazon.com/images/I/51AgpuXKLjS._AC_SX679_.jpg"
+        },
+        {
+            "nombre": "OPPO Find X3 Pro",
+            "marca": "oppo",
+            "imagen": "https://m.media-amazon.com/images/I/71LmqOZRV0L._AC_SY741_.jpg"
+        },
+        {
+            "nombre": "Xiaomi Mi 10T 5G",
+            "marca": "xiaomi",
+            "imagen": "https://m.media-amazon.com/images/I/814Ih1CPFDL._AC_SY606_.jpg"
+        },
+        {
+            "nombre": "Xiaomi Smartphone REDMI Note 10 Pro",
+            "marca": "xiaomi",
+            "imagen": "https://m.media-amazon.com/images/I/51SDqR+WTFL._AC_SY355_.jpg"
+        },
+        {
+            "nombre": "Apple iPhone 13",
+            "marca": "apple",
+            "imagen": "https://m.media-amazon.com/images/I/71dpTXFz+dL._AC_SX522_.jpg"
+        },
+        {
+            "nombre": "iPhone 12 Pro MAX",
+            "marca": "apple",
+            "imagen": "https://m.media-amazon.com/images/I/71MHTD3uL4L._AC_SX522_.jpg"
+        },
+        {
+            "nombre": "Samsung Galaxy A52",
+            "marca": "samsung",
+            "imagen": "https://m.media-amazon.com/images/I/71DmbXOcaSL._AC_SX466_.jpg"
+        },
+        {
+            "nombre": "Motorola Moto G 5G",
+            "marca": "motorola",
+            "imagen": "https://m.media-amazon.com/images/I/913gWAtHlcL._AC_SY355_.jpg"
+        },
+        {
+            "nombre": "Motorola Edge - Smartphone 5G",
+            "marca": "motorola",
+            "imagen": "https://m.media-amazon.com/images/I/817QP3V+uiL._AC_SY355_.jpg"
+        }
+    ]
+}
