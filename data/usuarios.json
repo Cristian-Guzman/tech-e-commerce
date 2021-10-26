@@ -1,0 +1,8 @@
+{
+    "usuarios" : [
+        {
+            "nombre" : "usuario",
+            "email" : "correo@correo.com"
+        }
+    ]
+}
