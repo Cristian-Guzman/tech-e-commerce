@@ -35,21 +35,27 @@ body {
   background-color: var(--color-secundary);
   margin-bottom: 15px;
   padding: 15px;
+  border-radius: 5px;
 }
 
-.topnav a {
+.topnav button {
   float: left;
   display: block;
   color: var(--color-tertiary);
-  text-align: center;
+  background-color: var(--color-secundary);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin: 10px;
+  transition: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.topnav a:hover {
+.topnav button:hover {
   background-color: var(--color-botton);
   color: var(--color-tertiary);
+  transition: 0.4s;
 }
 
 .topnav input[type=text] {
@@ -70,6 +76,7 @@ body {
   position: relative;
   filter: blur(0px);
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 
 .hero-text {
@@ -110,13 +117,15 @@ body {
   transition: 0.3s;
   width: 300px;
   border-radius: 5px;
-  padding: 15px;
+  padding: 20px;
   margin: 15px;
   height: 350px;
+  transition: 0.4s;
 }
 
 .card:hover {
   box-shadow: 0 15px 10px rgba(0, 0, 0, 0.6);
+  transition: 0.4s;
 }
 
 img {
@@ -126,6 +135,3 @@ img {
 .container {
   padding: 2px 16px;
 }
-
-
-
