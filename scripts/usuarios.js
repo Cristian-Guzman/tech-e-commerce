@@ -15,4 +15,15 @@ login.addEventListener('click', async e => {
             "Content-Type": "application/json; charset=UTF-8"
         }
     });
+    if (name != "" && email != "") {
+        alert('Datos guardados exitosamente.')
+        const salida = confirm('¿Estás seguro de salir de la página?');
+        if (salida) {
+            window.open('index.html');
+        } else {
+            alert('No funciona')
+        }
+    } else {
+        alert('Debes rellenar todos los campos.')
+    }
 })
