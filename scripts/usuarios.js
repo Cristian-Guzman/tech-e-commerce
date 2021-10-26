@@ -18,8 +18,3 @@ formulario.addEventListener('submit', async e => {
     });
     e.preventDefault();
 })
-async function get() {
-    const urlApi = await fetch(API_URL);
-    console.log(await urlApi.json());
-}
-get()
