@@ -40,7 +40,7 @@ body {
 .topnav button {
   float: left;
   display: block;
-  color: var(--color-tertiary);
+  color: var(--color-botton);
   background-color: var(--color-secundary);
   padding: 14px 16px;
   text-decoration: none;
