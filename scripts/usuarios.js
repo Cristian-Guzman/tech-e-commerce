@@ -15,5 +15,5 @@ login.addEventListener('click', async e => {
             "Content-Type": "application/json; charset=UTF-8"
         }
     });
-    alert('Funciona')
+    e.preventDefault()
 })
